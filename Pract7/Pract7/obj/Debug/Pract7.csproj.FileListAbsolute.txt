@@ -1,0 +1,7 @@
+C:\Users\Testo\source\repos\Pract7\Pract7\bin\Debug\Pract7.exe.config
+C:\Users\Testo\source\repos\Pract7\Pract7\bin\Debug\Pract7.exe
+C:\Users\Testo\source\repos\Pract7\Pract7\bin\Debug\Pract7.pdb
+C:\Users\Testo\source\repos\Pract7\Pract7\obj\Debug\Pract7.csprojResolveAssemblyReference.cache
+C:\Users\Testo\source\repos\Pract7\Pract7\obj\Debug\Pract7.csproj.CoreCompileInputs.cache
+C:\Users\Testo\source\repos\Pract7\Pract7\obj\Debug\Pract7.exe
+C:\Users\Testo\source\repos\Pract7\Pract7\obj\Debug\Pract7.pdb

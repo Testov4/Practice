@@ -1,0 +1,7 @@
+c:\users\testo\source\repos\Pract9\Pract9\bin\Debug\Pract9.exe.config
+c:\users\testo\source\repos\Pract9\Pract9\bin\Debug\Pract9.exe
+c:\users\testo\source\repos\Pract9\Pract9\bin\Debug\Pract9.pdb
+c:\users\testo\source\repos\Pract9\Pract9\obj\Debug\Pract9.csproj.CoreCompileInputs.cache
+c:\users\testo\source\repos\Pract9\Pract9\obj\Debug\Pract9.exe
+c:\users\testo\source\repos\Pract9\Pract9\obj\Debug\Pract9.pdb
+C:\Users\Testo\source\repos\Pract9\Pract9\obj\Debug\Pract9.csprojResolveAssemblyReference.cache
