@@ -42,10 +42,10 @@ namespace Pract3
                     ok = false;
                 }
             } while (!ok);
-            if (x >= -1 && x <= 1 && y >= -2 && y <= 0)
-                YES = true;
-            if ((x >= -1 && x <= 1 && y >= 0 && y <= 1) && (Math.Pow(x, 2) + Math.Pow(y, 2) <= Math.Sqrt(2)) &&(Math.Abs(x)>=y))
-                YES = true;
+            
+
+            YES = ((x >= -1 && x <= 1 && y >= -2 && y <= 0) ||( (x >= -1 && x <= 1 && y >= 0 && y <= 1) && (Math.Pow(x, 2) + Math.Pow(y, 2) <= Math.Sqrt(2)) && (Math.Abs(x) >= y)));
+               
             if (YES)
                 Console.WriteLine("Точка " + x + ";" + y + " принадлежит заданной области");
             else

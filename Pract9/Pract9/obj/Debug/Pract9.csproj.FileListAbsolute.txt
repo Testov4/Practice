@@ -5,3 +5,10 @@ c:\users\testo\source\repos\Pract9\Pract9\obj\Debug\Pract9.csproj.CoreCompileInp
 c:\users\testo\source\repos\Pract9\Pract9\obj\Debug\Pract9.exe
 c:\users\testo\source\repos\Pract9\Pract9\obj\Debug\Pract9.pdb
 C:\Users\Testo\source\repos\Pract9\Pract9\obj\Debug\Pract9.csprojResolveAssemblyReference.cache
+C:\Users\Testo\Documents\Practice\Pract9\Pract9\bin\Debug\Pract9.exe.config
+C:\Users\Testo\Documents\Practice\Pract9\Pract9\bin\Debug\Pract9.exe
+C:\Users\Testo\Documents\Practice\Pract9\Pract9\bin\Debug\Pract9.pdb
+C:\Users\Testo\Documents\Practice\Pract9\Pract9\obj\Debug\Pract9.csprojResolveAssemblyReference.cache
+C:\Users\Testo\Documents\Practice\Pract9\Pract9\obj\Debug\Pract9.csproj.CoreCompileInputs.cache
+C:\Users\Testo\Documents\Practice\Pract9\Pract9\obj\Debug\Pract9.exe
+C:\Users\Testo\Documents\Practice\Pract9\Pract9\obj\Debug\Pract9.pdb

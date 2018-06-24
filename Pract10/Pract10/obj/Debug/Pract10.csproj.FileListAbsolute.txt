@@ -5,3 +5,10 @@ C:\Users\Testo\source\repos\Pract10\Pract10\obj\Debug\Pract10.csproj.CoreCompile
 C:\Users\Testo\source\repos\Pract10\Pract10\obj\Debug\Pract10.exe
 C:\Users\Testo\source\repos\Pract10\Pract10\obj\Debug\Pract10.pdb
 C:\Users\Testo\source\repos\Pract10\Pract10\obj\Debug\Pract10.csprojResolveAssemblyReference.cache
+C:\Users\Testo\Documents\Practice\Pract10\Pract10\bin\Debug\Pract10.exe.config
+C:\Users\Testo\Documents\Practice\Pract10\Pract10\bin\Debug\Pract10.exe
+C:\Users\Testo\Documents\Practice\Pract10\Pract10\bin\Debug\Pract10.pdb
+C:\Users\Testo\Documents\Practice\Pract10\Pract10\obj\Debug\Pract10.csprojResolveAssemblyReference.cache
+C:\Users\Testo\Documents\Practice\Pract10\Pract10\obj\Debug\Pract10.csproj.CoreCompileInputs.cache
+C:\Users\Testo\Documents\Practice\Pract10\Pract10\obj\Debug\Pract10.exe
+C:\Users\Testo\Documents\Practice\Pract10\Pract10\obj\Debug\Pract10.pdb

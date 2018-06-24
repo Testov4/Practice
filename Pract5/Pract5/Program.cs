@@ -60,7 +60,7 @@ namespace Pract5
                     CopyMas[j] = Matr[size-1-i, j];
                 }
                 Array.Sort(CopyMas);
-                x2 = CopyMas[size - 1];
+                x2 = CopyMas[size - i];
                 Sum = Sum + x1 * x2;
             }
             Console.WriteLine("Сумма ряда = " +Sum);

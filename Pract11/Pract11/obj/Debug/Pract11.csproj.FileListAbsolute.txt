@@ -5,3 +5,10 @@ C:\Users\Testo\source\repos\Pract11\Pract11\obj\Debug\Pract11.csprojResolveAssem
 C:\Users\Testo\source\repos\Pract11\Pract11\obj\Debug\Pract11.csproj.CoreCompileInputs.cache
 C:\Users\Testo\source\repos\Pract11\Pract11\obj\Debug\Pract11.exe
 C:\Users\Testo\source\repos\Pract11\Pract11\obj\Debug\Pract11.pdb
+C:\Users\Testo\Documents\Practice\Pract11\Pract11\bin\Debug\Pract11.exe.config
+C:\Users\Testo\Documents\Practice\Pract11\Pract11\bin\Debug\Pract11.exe
+C:\Users\Testo\Documents\Practice\Pract11\Pract11\bin\Debug\Pract11.pdb
+C:\Users\Testo\Documents\Practice\Pract11\Pract11\obj\Debug\Pract11.csprojResolveAssemblyReference.cache
+C:\Users\Testo\Documents\Practice\Pract11\Pract11\obj\Debug\Pract11.csproj.CoreCompileInputs.cache
+C:\Users\Testo\Documents\Practice\Pract11\Pract11\obj\Debug\Pract11.exe
+C:\Users\Testo\Documents\Practice\Pract11\Pract11\obj\Debug\Pract11.pdb

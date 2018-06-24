@@ -5,3 +5,10 @@ c:\users\testo\source\repos\Pract3\Pract3\obj\Debug\Pract3.csprojResolveAssembly
 c:\users\testo\source\repos\Pract3\Pract3\obj\Debug\Pract3.csproj.CoreCompileInputs.cache
 c:\users\testo\source\repos\Pract3\Pract3\obj\Debug\Pract3.exe
 c:\users\testo\source\repos\Pract3\Pract3\obj\Debug\Pract3.pdb
+C:\Users\Testo\Documents\Practice\Pract3\Pract3\bin\Debug\Pract3.exe.config
+C:\Users\Testo\Documents\Practice\Pract3\Pract3\bin\Debug\Pract3.exe
+C:\Users\Testo\Documents\Practice\Pract3\Pract3\bin\Debug\Pract3.pdb
+C:\Users\Testo\Documents\Practice\Pract3\Pract3\obj\Debug\Pract3.csprojResolveAssemblyReference.cache
+C:\Users\Testo\Documents\Practice\Pract3\Pract3\obj\Debug\Pract3.csproj.CoreCompileInputs.cache
+C:\Users\Testo\Documents\Practice\Pract3\Pract3\obj\Debug\Pract3.exe
+C:\Users\Testo\Documents\Practice\Pract3\Pract3\obj\Debug\Pract3.pdb

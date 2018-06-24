@@ -31,6 +31,11 @@ namespace Pract4
                 {
                     n = Convert.ToDouble(Console.ReadLine());
                     ok = true;
+                    if(n<=0)
+                    {
+                        Console.WriteLine("Ошибка, повторите ввод");
+                        ok = false;
+                    }
                 }
                 catch (FormatException)
                 {
