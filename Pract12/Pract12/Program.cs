@@ -10,11 +10,31 @@ namespace Pract12
     {
         public static void ShowMas(int[] mas)
         {
-            Console.WriteLine();
             for (int i = 0; i < mas.Length; i++) Console.Write(mas[i] + " ");
         }
 
-        public static void InsertionSort(int[] array,ref int count)
+        public static void ComprResults(int[] array,string First,string Second)
+        {
+            int countSr1 = 0, countSr2 = 0;
+            int Count1 = 0, Count2 = 0;
+            int[] CP = new int[array.Length];
+            Array.Copy(array, CP, array.Length);
+            Console.Write("Результаты сортировки "+First);
+            InsertionSort(CP, ref Count1, ref countSr1);
+            Console.WriteLine();
+            Console.WriteLine("Количество пересылок: " + Count1);
+            Console.WriteLine("Количество сравнений: " + countSr1);
+            Console.WriteLine();
+            Array.Copy(array, CP, array.Length);
+            Console.Write("Результаты сортировки "+Second);
+            ViborSort(CP, ref Count2, ref countSr2);
+            Console.WriteLine();
+            Console.WriteLine("Количество пересылок: " + Count2);
+            Console.WriteLine("Количество сравнений: " + countSr2);
+            Console.WriteLine();
+        }
+
+        public static void InsertionSort(int[] array,ref int count, ref int countSr)
         {
             
             for (int i = 1; i < array.Length; i++)
@@ -26,15 +46,16 @@ namespace Pract12
                     array[j] = array[j - 1];
                     j--;
                     count++;
+                    countSr++;
                 }
+                if (j>0) countSr++;
                 array[j] = cur;
                 count++;
             }
-            int[] p = array;
             ShowMas(array);
         }
 
-        static void ViborSort(int[] mas,ref int count)
+        static void ViborSort(int[] mas,ref int count, ref int countSr)
         {
 
             for (int i = 0; i < mas.Length - 1; i++)
@@ -46,7 +67,9 @@ namespace Pract12
                     if (mas[j] < mas[min])
                     {
                         min = j;
+                        countSr++;
                     }
+                    else countSr++;
                 }
                 //обмен элементов
                 int temp = mas[min];
@@ -63,7 +86,7 @@ namespace Pract12
         static void Main(string[] args)
         {
             bool ok= false;
-            int size = 0,i=0,j=0,Count1=0,Count2=0;
+            int size = 0,i=0,j=0,Count1=0,Count2=0, countSr1 = 0, countSr2 = 0;
             
             Console.WriteLine("Введите длину массива");
             do
@@ -103,34 +126,23 @@ namespace Pract12
 
             Array.Sort(masSorted1);
             Array.Sort(masSorted2,(x,y)=>-x.CompareTo(y));
-
-            ShowMas(mas);
-            ShowMas(masSorted1);
-            ShowMas(masSorted2);
+                Console.Write("Неупорядоченный массив: ");
+                ShowMas(mas);
+                Console.WriteLine();
+                Console.Write("Упорядоченный по возрастанию массив: ");
+                ShowMas(masSorted1);
+                Console.WriteLine();
+                Console.Write("Упорядоченный по убыванию массив: ");
+                ShowMas(masSorted2);
             Console.WriteLine();
-            InsertionSort(mas, ref Count1);
-            Console.WriteLine();
-            Console.WriteLine("Количество пересылок при сортировке неупорядоченного массива способом простых вставок:  " + Count1);
-            ViborSort(mas, ref Count2);
-            Console.WriteLine();
-            Console.WriteLine("Количество пересылок при сортировке неупорядоченного массива способом простого выбора:  " + Count2);
             Console.WriteLine();
 
-            Count1 = 0; Count2 = 0;
-            InsertionSort(masSorted1, ref Count1);
-            Console.WriteLine();
-            Console.WriteLine("Количество пересылок при сортировке упорядоченного по возрастанию массива способом простых вставок:  " + Count1);
-            ViborSort(masSorted1, ref Count2);
-            Console.WriteLine();
-            Console.WriteLine("Количество пересылок при сортировке упорядоченного по возрастанию массива способом простого выбора:  " + Count2);
+            ComprResults(mas, "неупорядоченного массива способом простых вставок: ", "неупорядоченного массива способом простого выбора: ");
+            
+            ComprResults(masSorted1, "упорядоченного по возрастанию массива способом простых вставок: ", "упорядоченного по возрастанию массива способом простого выбора: ");
+            
+            ComprResults(masSorted2, "упорядоченного по убыванию массива способом простых вставок: ", "Результаты сортировки упорядоченного по убыванию массива способом простого выбора: ");
 
-            Count1 = 0; Count2 = 0;
-            InsertionSort(masSorted2, ref Count1);
-            Console.WriteLine();
-            Console.WriteLine("Количество пересылок при сортировке упорядоченного по убыванию массива способом простых вставок:  " + Count1);
-            ViborSort(masSorted2, ref Count2);
-            Console.WriteLine();
-            Console.WriteLine("Количество пересылок при сортировке упорядоченного по убыванию массива способом простого выбора:  " + Count2);
             Console.ReadLine();
 
         }

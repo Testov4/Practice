@@ -31,12 +31,12 @@ class Program
             for (int j = 1; j < M; j++)
             {
                 int C = 0;                
-                for (int k = i + 1; k < N; k++)   
+                for (int k = i + 1; k < N; k++)//подсчёт всех удивлений для jго упражнения   
                     C =C+arr[k, j-1];
-                if (j - 1 > 0)                    
+                if (j > 1)
                     sum[i, j] = sum[i, j - 1] + C;
                 else sum[i, j] = C;
-                if (arr[i, j] != 0)               
+                if (arr[i, j] != 0)//проверка, выполнено ли упражнение               
                     counter =counter + sum[i, j];        
             }
 

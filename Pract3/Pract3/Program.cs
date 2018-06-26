@@ -44,7 +44,7 @@ namespace Pract3
             } while (!ok);
             
 
-            YES = ((x >= -1 && x <= 1 && y >= -2 && y <= 0) ||( (x >= -1 && x <= 1 && y >= 0 && y <= 1) && (Math.Pow(x, 2) + Math.Pow(y, 2) <= Math.Sqrt(2)) && (Math.Abs(x) >= y)));
+            YES = ((x >= -1 && x <= 1 && y >= -2 && y <= 0)||((x >= -1 && x <= 1 && y >= 0 && y <= 1) && (Math.Abs(x) >= y)));
                
             if (YES)
                 Console.WriteLine("Точка " + x + ";" + y + " принадлежит заданной области");
